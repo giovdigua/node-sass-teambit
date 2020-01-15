@@ -1,1 +1,42 @@
-/*  Setting for the header  */  
+/*  Setting for the header  */ 
+header{
+    width: 100%;
+
+    .headerContainer{
+        margin: auto;
+        height: 85px;
+        line-height: 90px;
+        width: $mediumContainer;
+        border-bottom: 1px solid $baseTextColor;
+
+        .logoSection{
+            width: 20%;
+            height: 100%;
+            float: left;
+           
+        }
+
+        nav{
+            float: left;
+            width: 80%;
+
+            ul {
+                float: right;
+
+                li {
+                    float: left;
+                    margin: 0 15px;
+                }
+            }
+        }
+        
+    }
+} 
+
+.jumbotronSectionContainer{
+    width: 100%;
+
+    .jumbotronSection{
+        width: medium;
+    }
+}

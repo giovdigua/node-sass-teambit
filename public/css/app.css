@@ -11,5 +11,51 @@ li {
   list-style-type: none;
 }
 
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /*  Setting for the header  */
+
+header {
+  width: 100%;
+}
+
+header .headerContainer {
+  margin: auto;
+  height: 85px;
+  line-height: 90px;
+  width: 980px;
+  border-bottom: 1px solid #58402C;
+}
+
+header .headerContainer .logoSection {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+header .headerContainer nav {
+  float: left;
+  width: 80%;
+}
+
+header .headerContainer nav ul {
+  float: right;
+}
+
+header .headerContainer nav ul li {
+  float: left;
+  margin: 0 15px;
+}
+
+.jumbotronSectionContainer {
+  width: 100%;
+}
+
+.jumbotronSectionContainer .jumbotronSection {
+  width: medium;
+}
 
