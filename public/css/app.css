@@ -1,0 +1,15 @@
+/*  General setting of the paga  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #58402C;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*  Setting for the header  */
+
